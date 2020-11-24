@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Prueba N2</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="tarjeta">Numero de tarjeta</string>
+    <string name="mes">Mes</string>
+    <string name="año">Año</string>
+    <string name="codigo">Codigo</string>
+    <string name="calle">Calle y Numero</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="estado">Estado</string>
+    <string name="codigop">Codigo Postal</string>
+    <string name="bton">Guardar</string>
+    <string name="bton2">Registrar</string>
+    <string name="bton3">Buscar</string>
+
+
+</resources>

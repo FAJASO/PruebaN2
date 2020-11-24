@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="117dp">
+
+                <TextView
+                    android:id="@+id/adnombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="@string/nombre"
+                    android:textSize="29dp" />
+
+                <ImageView
+                    android:id="@+id/adimg"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="37dp"
+                    app:srcCompat="@drawable/credit_card_512" />
+
+                <TextView
+                    android:id="@+id/adtarjeta"
+                    android:layout_width="306dp"
+                    android:layout_height="30dp"
+                    android:textSize="25dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="44dp"
+                    android:text="@string/tarjeta" />
+
+                <TextView
+                    android:id="@+id/admes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="79dp"
+                    android:text="@string/mes" />
+
+                <TextView
+                    android:id="@+id/asd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="118dp"
+                    android:layout_marginTop="79dp"
+                    android:text="/" />
+
+                <TextView
+                    android:id="@+id/adaño"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="79dp"
+                    android:text="@string/año" />
+
+            </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+</LinearLayout>
